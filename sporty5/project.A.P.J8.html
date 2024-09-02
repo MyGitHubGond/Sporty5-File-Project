@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      .container {
+        background-color: #e5e5fd;
+        min-height: 100vh;
+        border: 10px solid #1d1e4c;
+      }
+      
+      .content {
+        max-width: 900px;
+        margin: 0 auto;
+      }
+      .top_section {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+      }
+      .top_section h1 {
+        font-size: 50px;
+        font-weight: bold;
+        color: #1d1e4c;
+        text-transform: uppercase;
+      }
+      .top_section h4 {
+        font-size: 30px;
+        text-align: end;
+      }
+      
+      .image_container {
+        border-radius: 50%;
+        overflow: hidden;
+      }
+      
+      .image_container,
+      img {
+        width: 300px;
+        height: 320px;
+      }
+      .about_section {
+        margin-top: 50px;
+      }
+      .about_section h2 {
+        font-size: 70px;
+        font-weight: 400;
+        margin-bottom: 20px;
+      }
+      .about_section p {
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 1.2px;
+        text-align: justify;
+      }
+      .biography_section {
+        margin: 50px 0;
+      }
+      .biography_section h3 {
+        margin-bottom: 20px;
+      }
+      .biography_section ul {
+        margin-left: 50px;
+      }
+      .biography_section li {
+        margin-bottom: 15px;
+      }
+      
+      footer {
+        margin: 50px 0;
+      }
+      footer p {
+        text-align: end;
+      }</style>
+    <title>The Tribute Website | A.P. J Abdul Kalam</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <section class="top_section">
+          <div class="image_container">
+            <img src="data:image/jpeg;base64,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" alt="" />
+          </div>
+          <div>
+            <h1>A . P . J Abdul Kalam</h1>
+            <h4>1931 - 2015</h4>
+          </div>
+        </section>
+        <section class="about_section">
+          <h2>Missile Man of India</h2>
+          <p>
+            <b>Avul Pakir Jainulabdeen Abdul Kalam</b> 15 October 1931 – 27 July
+            2015) was an Indian aerospace scientist who served as the 11th
+            president of India from 2002 to 2007. He was born and raised in
+            Rameswaram, Tamil Nadu and studied physics and aerospace
+            engineering. He spent the next four decades as a scientist and
+            science administrator, mainly at the Defence Research and
+            Development Organisation (DRDO) and Indian Space Research
+            Organisation (ISRO) and was intimately involved in India's civilian
+            space programme and military missile development efforts.[1] He thus
+            came to be known as the Missile Man of India for his work on the
+            development of ballistic missile and launch vehicle
+            technology.[2][3][4] He also played a pivotal organisational,
+            technical, and political role in India's Pokhran-II nuclear tests in
+            1998, the first since the original nuclear test by India in 1974.
+          </p>
+        </section>
+        <section class="biography_section">
+          <h3>Biographies</h3>
+          <ul>
+            <li>
+              Eternal Quest: Life and Times of Dr Kalam by S Chandra; Pentagon
+              Publishers, 2002.
+            </li>
+            <li>
+              President A P J Abdul Kalam by R K Pruthi; Anmol Publications,
+              2002.
+            </li>
+            <li>
+              A P J Abdul Kalam: The Visionary of India by K Bhushan, G Katyal;
+              A P H Pub Corp, 2002.
+            </li>
+            <li>
+              A Little Dream (documentary film) by P. Dhanapal; Minveli Media
+              Works Private Limited, 2008.
+            </li>
+            <li>
+              The Kalam Effect: My Years with the President by P M Nair; Harper
+              Collins, 2008.
+            </li>
+            <li>
+              My Days With Mahatma Abdul Kalam by Fr A K George; Novel
+              Corporation, 2009.
+            </li>
+            <li>
+              A.P.J. Abdul Kalam: A Life by Arun Tiwari; Haper Collins, 2015.
+            </li>
+            <li>
+              The People's President: Dr A P J Abdul Kalam by S M Khan;
+              Bloomsbury Publishing, 2016.
+            </li>
+          </ul>
+        </section>
+        <footer>
+          <p>
+            Read more about A. P. J. Abdul Kalam on
+            <a href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam"
+              >Wikipedia.</a
+            >
+          </p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
